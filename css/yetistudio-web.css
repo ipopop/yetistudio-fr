@@ -316,21 +316,21 @@ p {
 }
 .slide-3 {
   background-color: black;
-  background-image: url('../images/slide-theatre.jpg');
+  background-image: url('../img/slide-theatre.jpg');
   background-position: 50% 50%;
   background-size: 1500px;
   background-repeat: no-repeat;
 }
 .slide-1 {
   background-color: black;
-  background-image: url('../images/slide-spot.jpg');
+  background-image: url('../img/slide-spot.jpg');
   background-position: 50% 50%;
   background-size: 1500px;
   background-repeat: no-repeat;
 }
 .slide-2 {
   background-color: black;
-  background-image: url('../images/slide-fashion-motard.jpg');
+  background-image: url('../img/slide-fashion-motard.jpg');
   background-position: 50% 50%;
   background-size: 1500px;
   background-repeat: no-repeat;
@@ -395,14 +395,14 @@ p {
 }
 .slide-form1 {
   background-color: black;
-  background-image: url('../images/slide-minimonde.jpg');
+  background-image: url('../img/slide-minimonde.jpg');
   background-position: 50% 0px;
   background-size: 1500px;
   background-repeat: no-repeat;
 }
 .slide-form2 {
   background-color: white;
-  background-image: url('../images/slide-mountain.jpg');
+  background-image: url('../img/slide-mountain.jpg');
   background-position: 50% 0px;
   background-size: 1500px;
   background-repeat: no-repeat;
@@ -491,7 +491,7 @@ p {
 }
 .slide-4 {
   background-color: black;
-  background-image: url('../images/slide-yeti.jpg');
+  background-image: url('../img/slide-yeti.jpg');
   background-position: 50% 50%;
   background-size: 1500px;
   background-repeat: no-repeat;
