@@ -583,12 +583,12 @@ p {
 }
 
 .list.line {
-  display: inline-block;
+  display: block;
   float: left;
 }
 
 .icon {
-  display: inline-block;
+  display: block;
   width: 20px;
   float: left;
 }

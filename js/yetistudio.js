@@ -1140,7 +1140,7 @@ Yetistudio.define('forms', function ($, _) {
   }
 
   function init() {
-    siteId = $('html').attr('data-wf-site')
+    siteId = $('html').attr('data-site')
 
     $forms = $(namespace + ' form')
     if (!$forms.length) return
@@ -1272,7 +1272,7 @@ Yetistudio.define('forms', function ($, _) {
     disableBtn(data)
 
     // Read site ID
-    // NOTE: If this site is exported, the HTML tag must retain the data-wf-site attribute for forms to work
+    // NOTE: If this site is exported, the HTML tag must retain the data-site attribute for forms to work
     if (!siteId) { afterSubmit(data); return }
     var url = FORM_API_HOST + '/api/v1/form/' + siteId
 
@@ -1892,7 +1892,7 @@ Yetistudio.define('slider', function ($, _) {
   var designer
   var inApp = Yetistudio.env()
   var namespace = '.w-slider'
-  var dot = '<div class="w-slider-dot" data-wf-ignore />'
+  var dot = '<div class="w-slider-dot" data-ignore />'
   var ix = Yetistudio.ixEvents()
   var fallback
   var redraw
@@ -3033,7 +3033,7 @@ Yetistudio.define('navbar', function ($, _) {
   var $navbars
   var designer
   var inApp = Yetistudio.env()
-  var overlay = '<div class="w-nav-overlay" data-wf-ignore />'
+  var overlay = '<div class="w-nav-overlay" data-ignore />'
   var namespace = '.w-nav'
   var buttonOpen = 'w--open'
   var menuOpen = 'w--nav-menu-open'
@@ -3711,7 +3711,7 @@ Yetistudio.define('branding', function ($, _) {
   // Module methods
 
   api.ready = function () {
-    var doBranding = $html.attr("data-wf-status") && location.href.match(/Yetistudio.com|Yetistudiotest.com/)
+    var doBranding = $html.attr("data-status") && location.href.match(/Yetistudio.com|Yetistudiotest.com/)
 
     if (doBranding) {
       var $branding = $('<div></div>')
