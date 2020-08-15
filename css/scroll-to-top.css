@@ -1,13 +1,14 @@
 #back2Top::after {
   content: '';
-  border: 17px solid transparent;
+  border: 25px solid transparent;
   border-bottom-color: hsla(28, 92%, 56%, 0.3);
   cursor: pointer;
   position: fixed;
   bottom: 50px;
   right: 50px;
+  z-index: 5;
 }
 
-#back2Top::after:hover {
-  background-color: hsla(209, 9%, 52%, 0.1);
+#back2Top:hover::after {
+  border-bottom-color: hsl(28, 92%, 56%);
 }
